@@ -1,0 +1,16 @@
+body {
+	background: linear-gradient(
+		180.2deg,
+		rgb(120, 85, 137) -6.9%,
+		rgb(35, 9, 31) 76.7%
+	);
+	color: white;
+}
+
+h1 {
+	font-family: "Lobster", cursive;
+}
+
+h3 {
+	font-family: "Montserrat Alternates", sans-serif;
+}
