@@ -1,37 +1,58 @@
 body {
-	background: linear-gradient(
-		180.2deg,
-		rgb(120, 85, 137) -6.9%,
-		rgb(35, 9, 31) 76.7%
-	);
-	color: white;
+	background: black;
+	color: #c8f0f0;
 }
 
 h1 {
-	font-family: "Lobster", cursive;
+	font-family: "Lobster", cursive, Arial, Helvetica, sans-serif;
+	color: #7047a3;
+	text-align: center;
+	margin: 40px;
 }
 
 h3 {
 	font-family: "Montserrat Alternates", sans-serif;
-	display: flex;
-	justify-content: space-evenly;
 }
 
-#diamond-narrow {
-	width: 0;
-	height: 0;
-	border: 50px solid transparent;
-	border-bottom: 70px solid red;
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	object-fit: fill;
+}
+.diamond {
 	position: relative;
-	top: -50px;
+	height: 350px;
+	width: 350px;
+	line-height: 350px;
+	text-align: center;
+	margin: 10px 40px;
 }
-#diamond-narrow:after {
-	content: "";
+.diamond:before {
 	position: absolute;
-	left: -50px;
-	top: 70px;
-	width: 0;
-	height: 0;
-	border: 50px solid transparent;
-	border-top: 70px solid red;
+	content: "";
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	transform: rotateX(45deg) rotateZ(45deg);
+	box-shadow: 0px 0px 12px gray;
 }
+.diamond:after {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	content: "";
+	height: calc(
+		100% - 22px
+	); /* -22px is 2 * 10px gap on either side - 2px border on either side */
+	width: calc(
+		100% - 22px
+	); /* -22px is 2 * 10px gap on either side - 2px border on either side */
+	border: 1px solid #86d8dc;
+	transform: rotateX(45deg) rotateZ(45deg);
+}
+
+#86d8dc;
+#3a276a;
+
