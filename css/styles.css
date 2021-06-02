@@ -8,6 +8,7 @@ h1 {
 	color: #7047a3;
 	text-align: center;
 	margin: 40px;
+	font-size: 60px;
 }
 
 h3 {
@@ -52,7 +53,3 @@ h3 {
 	border: 1px solid #86d8dc;
 	transform: rotateX(45deg) rotateZ(45deg);
 }
-
-#86d8dc;
-#3a276a;
-
