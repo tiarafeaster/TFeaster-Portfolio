@@ -21,6 +21,9 @@ h3 {
 	vertical-align: middle;
 	object-fit: fill;
 }
+
+/* Need to make diamond more responsive */
+
 .diamond {
 	position: relative;
 	height: 350px;
@@ -28,6 +31,7 @@ h3 {
 	line-height: 350px;
 	text-align: center;
 	margin: 10px 40px;
+	padding-right: 50px;
 }
 .diamond:before {
 	position: absolute;
