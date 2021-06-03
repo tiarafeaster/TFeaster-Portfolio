@@ -15,6 +15,17 @@ h3 {
 	font-family: "Montserrat Alternates", sans-serif;
 }
 
+marquee {
+	border: 2px solid white;
+}
+
+.jumbotron {
+	color: white;
+	text-align: center;
+	margin: 20px;
+	font-size: 40px;
+}
+
 .img-fluid {
 	max-width: 100%;
 	height: auto;
