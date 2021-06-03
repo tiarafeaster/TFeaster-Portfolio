@@ -19,6 +19,11 @@ marquee {
 	border: 2px solid white;
 }
 
+span a {
+	font-family: "Montserrat Alternates", sans-serif;
+	text-decoration: none;
+}
+
 .jumbotron {
 	color: white;
 	text-align: center;
