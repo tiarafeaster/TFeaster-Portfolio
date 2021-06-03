@@ -1,12 +1,21 @@
+:root {
+	--primary-header: #7047a3;
+	--paragraphs: #c8f0f0;
+	--third-color: #86d8dc;
+	--box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+	--heading-font: "Lobster", cursive, Arial, Helvetica, sans-serif;
+	--secondary-heading-font: "Montserrat Alternates", sans-serif;
+}
+
 body {
 	background: black;
-	color: #c8f0f0;
+	color: var(--paragraphs);
 }
 
 h1,
 h2 {
-	font-family: "Lobster", cursive, Arial, Helvetica, sans-serif;
-	color: #7047a3;
+	font-family: var(--heading-font);
+	color: var(--primary-header);
 	text-align: center;
 	margin: 10px;
 	margin-top: 10px;
@@ -14,7 +23,7 @@ h2 {
 }
 
 h3 {
-	font-family: "Montserrat Alternates", sans-serif;
+	font-family: var(--secondary-heading-font);
 }
 
 marquee {
@@ -22,13 +31,13 @@ marquee {
 }
 
 span a {
-	font-family: "Montserrat Alternates", sans-serif;
+	font-family: var(--secondary-heading-font);
 	text-decoration: none;
 }
 
 .intro {
-	font-family: "Lobster", cursive, Arial, Helvetica, sans-serif;
-	color: #7047a3;
+	font-family: var(--heading-font);
+	color: var(--primary-header);
 	text-align: center;
 	margin: 10px 10px 40px 10px;
 	font-size: 50px;
@@ -79,7 +88,7 @@ span a {
 	width: calc(
 		100% - 22px
 	); /* -22px is 2 * 10px gap on either side - 2px border on either side */
-	border: 1px solid #86d8dc;
+	border: 1px solid var(--third-color);
 	transform: rotateX(45deg) rotateZ(45deg);
 }
 
