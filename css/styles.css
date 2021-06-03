@@ -2,6 +2,7 @@
 	--primary-header: #7047a3;
 	--paragraphs: #c8f0f0;
 	--third-color: #86d8dc;
+	--fourth-color: #c886e5;
 	--box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 	--heading-font: "Lobster", cursive, Arial, Helvetica, sans-serif;
 	--secondary-heading-font: "Montserrat Alternates", sans-serif;
@@ -12,8 +13,7 @@ body {
 	color: var(--paragraphs);
 }
 
-h1,
-h2 {
+h1 {
 	font-family: var(--heading-font);
 	color: var(--primary-header);
 	text-align: center;
@@ -22,8 +22,17 @@ h2 {
 	font-size: 80px;
 }
 
+h2 {
+	font-family: var(--heading-font);
+	color: var(--primary-header);
+	text-align: center;
+	margin: 40px;
+	font-size: 60px;
+}
+
 h3 {
 	font-family: var(--secondary-heading-font);
+	color: var(--fourth-color);
 }
 
 marquee {
@@ -37,7 +46,7 @@ span a {
 
 .intro {
 	font-family: var(--heading-font);
-	color: var(--primary-header);
+	color: var(--third-color);
 	text-align: center;
 	margin: 10px 10px 40px 10px;
 	font-size: 50px;
