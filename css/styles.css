@@ -3,12 +3,14 @@ body {
 	color: #c8f0f0;
 }
 
-h1 {
+h1,
+h2 {
 	font-family: "Lobster", cursive, Arial, Helvetica, sans-serif;
 	color: #7047a3;
 	text-align: center;
-	margin: 40px;
-	font-size: 60px;
+	margin: 10px;
+	margin-top: 10px;
+	font-size: 80px;
 }
 
 h3 {
@@ -24,6 +26,13 @@ span a {
 	text-decoration: none;
 }
 
+.intro {
+	font-family: "Lobster", cursive, Arial, Helvetica, sans-serif;
+	color: #7047a3;
+	text-align: center;
+	margin: 10px 10px 40px 10px;
+	font-size: 50px;
+}
 .jumbotron {
 	color: white;
 	text-align: center;
@@ -72,4 +81,15 @@ span a {
 	); /* -22px is 2 * 10px gap on either side - 2px border on either side */
 	border: 1px solid #86d8dc;
 	transform: rotateX(45deg) rotateZ(45deg);
+}
+
+@media (max-width: 576px) {
+	.diamond {
+		display: none;
+	}
+
+	span a {
+		display: block;
+		margin: 0 auto;
+	}
 }
