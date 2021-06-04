@@ -42,6 +42,8 @@ marquee {
 span a {
 	font-family: var(--secondary-heading-font);
 	text-decoration: none;
+	z-index: 10;
+	position: relative;
 }
 
 .intro {
@@ -103,11 +105,25 @@ span a {
 
 @media (max-width: 576px) {
 	.diamond {
-		display: none;
+		position: relative;
+		height: 250px;
+		width: 250px;
+		line-height: 250px;
+		text-align: center;
+		margin: 10px 40px;
+		padding-right: 50px;
 	}
 
 	span a {
 		display: block;
 		margin: 0 auto;
+		font-family: var(--secondary-heading-font);
+		text-decoration: none;
+		z-index: 10;
+		position: relative;
+	}
+
+	span a #contact {
+		line-height: 40px !important;
 	}
 }
