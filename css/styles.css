@@ -126,5 +126,7 @@ span a {
 	.contact {
 		line-height: 40px !important;
 		margin: 10px 40px !important;
+		padding-top: 50px;
 	}
 }
+`
