@@ -51,6 +51,10 @@ div {
 	margin-bottom: 20px;
 }
 
+.card {
+	background-color: black;
+}
+
 .intro {
 	font-family: var(--heading-font);
 	color: var(--third-color);
