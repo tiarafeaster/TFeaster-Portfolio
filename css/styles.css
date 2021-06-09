@@ -72,6 +72,10 @@ div {
 	object-fit: fill;
 }
 
+div a {
+	text-decoration: none;
+}
+
 /* Need to make diamond more responsive */
 
 .diamond {
