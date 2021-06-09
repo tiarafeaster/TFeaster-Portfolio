@@ -1,145 +1,153 @@
 :root {
-	--primary-header: #7047a3;
-	--paragraphs: #c8f0f0;
-	--third-color: #86d8dc;
-	--fourth-color: #c886e5;
-	--box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-	--heading-font: "Lobster", cursive, Arial, Helvetica, sans-serif;
-	--secondary-heading-font: "Montserrat Alternates", sans-serif;
+  --primary-header: #7047a3;
+  --paragraphs: #c8f0f0;
+  --third-color: #86d8dc;
+  --fourth-color: #c886e5;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --heading-font: "Lobster", cursive, Arial, Helvetica, sans-serif;
+  --secondary-heading-font: "Montserrat Alternates", sans-serif;
 }
 
 body {
-	background: black;
-	color: var(--paragraphs);
-	margin: 10px;
+  background: black;
+  color: var(--paragraphs);
+  margin: 10px;
 }
 
 h1 {
-	font-family: var(--heading-font);
-	color: var(--primary-header);
-	text-align: center;
-	margin: 10px;
-	margin-top: 10px;
-	font-size: 80px;
+  font-family: var(--heading-font);
+  color: var(--primary-header);
+  text-align: center;
+  margin: 10px;
+  margin-top: 10px;
+  font-size: 80px;
 }
 
 h2 {
-	font-family: var(--heading-font);
-	color: var(--primary-header);
-	text-align: center;
-	margin: 40px;
-	font-size: 60px;
+  font-family: var(--heading-font);
+  color: var(--primary-header);
+  text-align: center;
+  margin: 40px;
+  font-size: 60px;
 }
 
-h3,h4, h5 {
-	font-family: var(--secondary-heading-font);
-	color: var(--fourth-color);
+h3,
+h4,
+h5 {
+  font-family: var(--secondary-heading-font);
+  color: var(--fourth-color);
 }
 
 marquee {
-	border: 2px solid white;
+  border: 2px solid white;
 }
 
 span a {
-	font-family: var(--secondary-heading-font);
-	text-decoration: none;
-	z-index: 10;
-	position: relative;
+  font-family: var(--secondary-heading-font);
+  text-decoration: none;
+  z-index: 10;
+  position: relative;
 }
 
 div {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+i {
+  color: var(--paragraphs);
+  margin: 20px;
+  font-size: 45px;
+
 }
 
 .card {
-	background-color: black;
+  background-color: black;
 }
 
 .intro {
-	font-family: var(--heading-font);
-	color: var(--third-color);
-	text-align: center;
-	margin: 10px 10px 40px 10px;
-	font-size: 50px;
+  font-family: var(--heading-font);
+  color: var(--third-color);
+  text-align: center;
+  margin: 10px 10px 40px 10px;
+  font-size: 50px;
 }
 .jumbotron {
-	color: white;
-	text-align: center;
-	margin: 20px;
-	font-size: 40px;
+  color: white;
+  text-align: center;
+  margin: 20px;
+  font-size: 40px;
 }
 
 .img-fluid {
-	max-width: 100%;
-	height: auto;
-	vertical-align: middle;
-	object-fit: fill;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  object-fit: fill;
 }
 
 div a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 /* Need to make diamond more responsive */
 
 .diamond {
-	position: relative;
-	height: 350px;
-	width: 350px;
-	line-height: 350px;
-	text-align: center;
-	margin: 10px 40px;
-	padding-right: 50px;
+  position: relative;
+  height: 350px;
+  width: 350px;
+  line-height: 350px;
+  text-align: center;
+  margin: 10px 40px;
+  padding-right: 50px;
 }
 .diamond:before {
-	position: absolute;
-	content: "";
-	top: 0px;
-	left: 0px;
-	height: 100%;
-	width: 100%;
-	transform: rotateX(45deg) rotateZ(45deg);
-	box-shadow: 0px 0px 12px gray;
+  position: absolute;
+  content: "";
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  transform: rotateX(45deg) rotateZ(45deg);
+  box-shadow: 0px 0px 12px gray;
 }
 .diamond:after {
-	position: absolute;
-	top: 10px;
-	left: 10px;
-	content: "";
-	height: calc(
-		100% - 22px
-	); /* -22px is 2 * 10px gap on either side - 2px border on either side */
-	width: calc(
-		100% - 22px
-	); /* -22px is 2 * 10px gap on either side - 2px border on either side */
-	border: 1px solid var(--third-color);
-	transform: rotateX(45deg) rotateZ(45deg);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  content: "";
+  height: calc(
+    100% - 22px
+  ); /* -22px is 2 * 10px gap on either side - 2px border on either side */
+  width: calc(
+    100% - 22px
+  ); /* -22px is 2 * 10px gap on either side - 2px border on either side */
+  border: 1px solid var(--third-color);
+  transform: rotateX(45deg) rotateZ(45deg);
 }
 
 @media (max-width: 576px) {
-	.diamond {
-		position: relative;
-		height: 250px;
-		width: 250px;
-		line-height: 250px;
-		text-align: center;
-		margin: 10px 40px;
-		padding-right: 50px;
-	}
+  .diamond {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    line-height: 250px;
+    text-align: center;
+    margin: 10px 40px;
+    padding-right: 50px;
+  }
 
-	span a {
-		display: block;
-		margin: 0 auto;
-		font-family: var(--secondary-heading-font);
-		text-decoration: none;
-		z-index: 10;
-		position: relative;
-	}
+  span a {
+    display: block;
+    margin: 0 auto;
+    font-family: var(--secondary-heading-font);
+    text-decoration: none;
+    z-index: 10;
+    position: relative;
+  }
 
-	.contact {
-		line-height: 40px !important;
-		margin: 10px 40px !important;
-		padding-top: 50px;
-	}
+  .contact {
+    line-height: 40px !important;
+    margin: 10px 40px !important;
+    padding-top: 50px;
+  }
 }
-
