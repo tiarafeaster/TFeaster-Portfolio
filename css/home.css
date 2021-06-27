@@ -1,0 +1,44 @@
+:root {
+  --primary-header: #7047a3;
+  --paragraphs: #c8f0f0;
+  --third-color: #86d8dc;
+  --fourth-color: #c886e5;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --heading-font: "Lobster", cursive, Arial, Helvetica, sans-serif;
+  --secondary-heading-font: "Montserrat Alternates", sans-serif;
+}
+
+body {
+  background: black;
+  color: var(--paragraphs);
+  line-height: 1.4;
+  font-weight: lighter;
+}
+
+.wrapper {
+  padding-top: 160px;
+  transform: rotate(45deg);
+  padding-left: 100px;
+}
+.box {
+  background-color: var(--primary-header);
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+}
+.box:hover {
+  background-color: var(--fourth-color);
+}
+.box p {
+  transform: rotate(-45deg);
+  padding: 5px;
+  font-size: 25px;
+}
+.box p i {
+  color: var(--third-color);
+}
+
+.box:hover i {
+  color: black;
+}

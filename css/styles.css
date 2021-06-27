@@ -49,9 +49,9 @@ span a {
   position: relative;
 }
 
-div {
+/*div {
   margin-bottom: 20px;
-}
+} */
 
 i {
   color: var(--paragraphs);
@@ -142,6 +142,41 @@ div a {
   ); /* -22px is 2 * 10px gap on either side - 2px border on either side */
   border: 1px solid var(--third-color);
   transform: rotateX(45deg) rotateZ(45deg);
+}
+
+/* Projects Diamond */
+center {
+  line-height: 1.4;
+  font-weight: lighter;
+  margin: -60px 0 80px 0;
+}
+
+.wrapper {
+  padding-top: 160px;
+  transform: rotate(45deg);
+  padding-left: 100px;
+}
+.box {
+  background-color: var(--primary-header);
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+}
+.box:hover {
+  background-color: var(--fourth-color);
+}
+.box p {
+  transform: rotate(-45deg);
+  padding: 5px;
+  font-size: 25px;
+}
+.box p i {
+  color: var(--third-color);
+}
+
+.box:hover i {
+  color: black;
 }
 
 @media (max-width: 576px) {
