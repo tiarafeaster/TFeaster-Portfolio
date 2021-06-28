@@ -179,6 +179,11 @@ center {
   color: black;
 }
 
+p span .material-icons {
+  font-size: 36px;
+  color: orange;
+}
+
 @media (max-width: 576px) {
   .diamond {
     position: relative;
