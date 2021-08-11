@@ -103,6 +103,11 @@ div a {
   bottom: 13px;
 }
 
+.link-to-projects {
+  margin: 20px;
+  text-align: center;
+}
+
 /* Need to make diamond more responsive */
 
 .diamond {
