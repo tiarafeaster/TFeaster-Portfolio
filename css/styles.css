@@ -89,6 +89,12 @@ i {
   object-fit: fill;
 }
 
+.col-md-4 img {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+}
+
 div a {
   text-decoration: none;
 }
