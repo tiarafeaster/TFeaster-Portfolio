@@ -93,11 +93,6 @@ div a {
   text-decoration: none;
 }
 
-.btn-dark {
-  position: relative;
-  left: 600px;
-}
-
 #she-codes-react {
   position: relative;
   bottom: 14px;
@@ -255,9 +250,5 @@ p span .material-icons {
 
   .col img {
     display: none;
-  }
-  .btn-dark {
-    position: relative;
-    left: 200px;
   }
 }
