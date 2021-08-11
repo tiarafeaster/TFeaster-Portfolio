@@ -39,6 +39,10 @@ h5 {
   text-align: center;
 }
 
+h3 {
+  margin: 30px;
+}
+
 marquee {
   border: 2px solid white;
 }
@@ -87,6 +91,21 @@ i {
 
 div a {
   text-decoration: none;
+}
+
+.btn-dark {
+  position: relative;
+  left: 600px;
+}
+
+#she-codes-react {
+  position: relative;
+  bottom: 14px;
+}
+
+#she-codes-react-title {
+  position: relative;
+  bottom: 13px;
 }
 
 /* Need to make diamond more responsive */
@@ -165,6 +184,8 @@ p span .material-icons {
   color: orange;
 }
 
+/* Smaller Screens */
+
 @media (max-width: 576px) {
   .diamond {
     position: relative;
@@ -230,5 +251,13 @@ p span .material-icons {
 
   .box:hover i {
     color: black;
+  }
+
+  .col img {
+    display: none;
+  }
+  .btn-dark {
+    position: relative;
+    left: 200px;
   }
 }
